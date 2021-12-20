@@ -27,8 +27,8 @@ public class Cat {
 
 
     public boolean eat(Plate plate) {
-        System.out.print("\n" + getName() + " хочет съесть " );
-         eatCat = plate.decreaseFood(ThreadLocalRandom.current().nextInt(4) + 3);
+        System.out.print("\n" + getName() + " хочет съесть ");
+        eatCat = plate.decreaseFood(ThreadLocalRandom.current().nextInt(4) + 3);
         satiety += eatCat;
         if (satiety >= appetite) {
 

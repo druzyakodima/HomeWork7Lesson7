@@ -2,7 +2,7 @@ public class Test {
     public static void main(String[] args) throws InterruptedException {
 
         Cat cat = new Cat("Патрик", 0, 10);
-        Plate plate = new Plate(25);
+        Plate plate = new Plate(20);
         plate.printInfo();
 
         while (cat.getSatiety() < cat.getAppetite()) {
