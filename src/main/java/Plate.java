@@ -19,13 +19,14 @@ public class Plate {
     }
 
     public void printInfo() {
-        System.out.println(this );
+        System.out.println(this);
     }
 
     @Override
     public String toString() {
         return "\nВ миски корма: " + foodCount;
     }
+
 
     public int decreaseFood(int catEatCountFood) {
         System.out.println(catEatCountFood);
